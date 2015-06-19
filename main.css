@@ -1,0 +1,146 @@
+ @charset "UTF-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	background-color:#FFF;
+	/*font-family: 'Economica', sans-serif;*/
+	overflow-y:scroll;
+}
+
+#preload-01 { 
+background:url(img/full/005.jpg) no-repeat -9999px -9999px; 
+}
+
+#wrapper {
+	width:1030px;
+	/*border-style:solid;
+	border-width:1px;*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1 {
+	margin-left:20px;
+	font-family: 'Economica', sans-serif;
+}
+
+#nav ul {
+	font-family: 'Economica', sans-serif;
+	list-style:none;
+	margin-left:20px;
+	padding-left:0px;
+}
+
+#nav ul li {
+	float: left;
+	width: 200px;
+}
+
+#nav ul li ul {
+	margin:0px;
+	position:absolute;
+	width:200px;
+	background-color:#FFF;
+	visibility:hidden;
+	
+	/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);*/
+	
+	-webkit-transition:opacity 2s;
+	-moz-transition:opacity 2s;
+	-ms-transition:opacity 2s;
+	-o-transition:opacity 2s;
+	-transition:opacity 2s;
+}
+
+#nav ul li ul li:hover {
+	background-color:#8E6170;
+}
+
+#nav ul li:hover ul {
+	display:block;
+	opacity:1;
+	visibility:visible;
+}
+
+#nav a, #nav a:visited {
+	text-decoration:none;
+	font-size:18px;
+	color:#000;
+	display:block;
+	/*border-style:solid;
+	border-width:1px;*/
+	padding:10px 0px 10px 10px;
+}
+
+#nav a:hover, #nav a:active, #nav #curr {
+	color:#FFF;
+	background-color:#8E6170;
+}
+
+#content {
+	margin-top:100px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#bio {
+	float:left;
+	margin:0px 20px 5px 10px;
+}
+
+#content p {
+	font-size:14px;
+	padding-right:20px;
+	padding-left:15px;
+}
+
+#content a {
+	text-decoration:none;
+	color:#000;
+}
+
+#content a:hover {
+	color:#8E6170;
+}
+
+img.linkedin {
+	width:50px;
+	height:50px;
+	background:url(../img/socialmedia1.png) 0 0;
+}
+
+img.twitter {
+	width:50px;
+	height:50px;
+	background:url(../img/socialmedia1.png) -59px 0;
+}
+
+img.email {
+	width:50px;
+	height:50px;
+	background:url(../img/socialmedia1.png) -117px 0;
+}
+
+img.linkedin:hover {
+	background:url(../img/socialmedia_hover.png) 0 0;
+}
+
+img.twitter:hover {
+	background:url(../img/socialmedia_hover.png) -59px 0;
+}
+
+img.email:hover {
+	background:url(../img/socialmedia_hover.png) -117px 0;
+}
+
+ul#buttons {
+	list-style:none;
+	padding:0px;
+}
+
+ul#buttons li {
+	float:left;
+	padding-left:30px;
+}
